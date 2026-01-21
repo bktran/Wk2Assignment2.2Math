@@ -9,10 +9,10 @@
             float product1 = Maths.Multiply(2f,25f);
             float product2 = Maths.Multiply(4f,5f,6f);
 
-            Console.WriteLine(sum1);
-            Console.WriteLine(sum2);
-            Console.WriteLine(product1);
-            Console.WriteLine(product2);
+            Console.WriteLine($"Add() with two params: {sum1}");
+            Console.WriteLine($"Add() overloaded with three params: {sum2}");
+            Console.WriteLine($"Multiply() with two params: {product1}");
+            Console.WriteLine($"Multiply() overloaded with three params: {product2}");
         }
     }
 }
